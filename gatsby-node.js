@@ -31,7 +31,7 @@ async function getPageViews(startDate) {
     metrics: 'ga:uniquePageviews',
     dimensions: 'ga:pagePath',
     'start-date': startDate,
-    'end-date': 'yesterday',
+    'end-date': 'today',
     sort: '-ga:uniquePageviews',
     'max-results': 50
   })
