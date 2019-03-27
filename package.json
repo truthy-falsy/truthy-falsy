@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-clean-blog",
+  "name": "truthy/falsy",
   "description": "This gatsby starter aims to be a feature rich blog template with minimal design and sharp attention to typography and typesetting.",
   "version": "1.0.0",
   "author": "John C. Munson <johncmunson91@gmail.com>",
@@ -83,6 +83,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/johncmunson/gatsby-clean-blog"
+    "url": "https://github.com/truthy-falsy/truthy-falsy"
   }
 }

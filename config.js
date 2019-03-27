@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'gatsby clean blog',
+  title: 'truthy/falsy',
   postsPerPage: 3,
   homepageCoverImages: true,
   blogPostCoverImages: true

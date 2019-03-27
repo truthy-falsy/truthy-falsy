@@ -79,7 +79,7 @@ class Layout extends Component {
             >
               <html lang="en" />
             </Helmet>
-            <GithubCorner href="https://github.com/johncmunson/gatsby-clean-blog" />
+            <GithubCorner href="https://github.com/truthy-falsy/truthy-falsy" />
             <Overlay
               ref={setOverlayRef}
               opacity={overlayActive ? '0.98' : '0'}
