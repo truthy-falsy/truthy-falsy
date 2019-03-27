@@ -177,7 +177,6 @@ exports.createPages = async ({ actions, graphql }) => {
   })
   const trending = (await getPageViews('30daysAgo')) || []
   const allTime = (await getPageViews('2005-01-01')) || []
-  console.log('TRENDING: ', trending)
   const pageViews = {
     trending: trending.filter(removeNonPostPagesFromAnalytics).slice(0, 10),
     allTime: allTime.filter(removeNonPostPagesFromAnalytics).slice(0, 10)
