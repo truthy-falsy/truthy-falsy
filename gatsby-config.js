@@ -73,6 +73,12 @@ module.exports = {
       }
     },
     'gatsby-plugin-catch-links',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-2107013796969488`
+      }
+    }
   ]
 }
